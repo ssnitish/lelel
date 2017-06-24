@@ -1,0 +1,85 @@
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check
+$ echo "# lelel" >> README.md
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check
+$ git init
+Initialized empty Git repository in C:/___Company_material/Tribute-page-fcc-master/check/.git/
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git config core.autocrlf true
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git add README.md
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git commit -m "first commit"
+[master (root-commit) c8de7ff] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git commit -m "first commit1"
+On branch master
+Untracked files:
+        12.txt
+
+nothing added to commit but untracked files present
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git add --all
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git commit -m "first commit1"
+[master 6b2b0ad] first commit1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 12.txt
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git commit -m "first commit2"
+On branch master
+Changes not staged for commit:
+        modified:   12.txt
+
+no changes added to commit
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ ^C
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git add .
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git commit -a "first commit2"
+fatal: Paths with -a does not make sense.
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git commit a -m "changed"
+error: pathspec 'a' did not match any file(s) known to git.
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git commit -a -m "changed"
+[master 93505ed] changed
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git remote add origin https://github.com/ssnitish/lelel.git
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$ git push -u origin master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 702 bytes | 0 bytes/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/ssnitish/lelel.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+nitish@Nitish-pc MINGW64 /c/___Company_material/Tribute-page-fcc-master/check (master)
+$
