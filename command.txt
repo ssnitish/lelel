@@ -88,6 +88,11 @@ $
   again changed
 $ git commit -a -m "changed3"
 [master db837d0] changed3
+
+$ git commit command.txt -m "only command"
+[master f466f46] only command
+ 1 file changed, 7 insertions(+)
+
  1 file changed, 1 insertion(+)
 
 mygoodness
